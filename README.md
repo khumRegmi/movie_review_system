@@ -14,3 +14,9 @@ _Models_
 
 <p>The votes array would be an array of objects, referring to each upvote/downvote cast by a user. The basic structure of each object would be { user_id, vote_type [“up”/”down”] }. If the vote_type is “up”, you add 1 to the model’s upvote field, otherwise to the downvote field. One user can cast one and only one vote on a specific review. [check during posting reviews; if userid exists return cannot add a review]
 </p>
+
+
+| Endpoint | Request Type | Action                  |
+| ---- | ---------------------- |
+| Khum | kpr.regmi088@gmail.com |
+| Khum | kpr.regmi088@gmail.com |

@@ -7,3 +7,7 @@
 
 
 _Models_
+1. User (name, email)
+2. Movie (title, genre [array], year, director
+3. Review user_id -> the User id who posted the review, movie_id -> The movie id the review is about, content, upvote [int], downvote[int], votes[array of objects]*)
+

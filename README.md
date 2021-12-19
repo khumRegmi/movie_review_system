@@ -16,7 +16,7 @@ _Models_
 </p>
 
 
-| Endpoint | Request Type | Action                  |
-| ---- | ---------------------- |
-| Khum | kpr.regmi088@gmail.com |
-| Khum | kpr.regmi088@gmail.com |
+| Endpoint | Request Type           |       Action                  |
+| -------- | ---------------------- |--------------------------------
+| Khum     | kpr.regmi088@gmail.com | 1
+| Khum     | kpr.regmi088@gmail.com | 2

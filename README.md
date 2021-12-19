@@ -16,7 +16,17 @@ _Models_
 </p>
 
 
-| Endpoint | Request Type           |       Action                  |
-| -------- | ---------------------- |--------------------------------
-| Khum     | kpr.regmi088@gmail.com | 1
-| Khum     | kpr.regmi088@gmail.com | 2
+| Endpoint                      | Request Type           |       Action                                    |
+| ----------------------------- | ---------------------- |-------------------------------------------------
+| /users                        | POST                   | Create User
+| /users/:id                    | GET                    | Get user info with the given id
+| /movies                       | POST                   | Create a movie
+| /movies/:id                   | GET                    | Get the movie info with id
+| /movies/:id                   | PATCH                  | Update movie information
+| /movies/:id/reviews           | GET                    | Get all the reviewa of the movie with 'id'
+| /movies/:id/reviews           | POST                   | Create a review for the given movie with 'id'
+| /movies/:id/reviews/:reviewId | GET                    | Get the specific review
+| /movies/:id/reviews/:reviewId | DELETE                 | Delete the specific review
+| /movies/:id/reviews/:reviewId | POST                   | Create a vote (up/down)
+
+
